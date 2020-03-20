@@ -14,7 +14,7 @@ class Dummy1
 	
 		try
 		{
-			URL url = new URL("http://maps.googleapis.com/maps/api/geocode/json?address=chicago&sensor=false&#8221");
+			URL url = new URL("http://jsonplaceholder.typicode.com/posts");
 			//Parse URL into HttpURLConnection in order to open the connection in order to get the JSON data
 			HttpURLConnection conn = (HttpURLConnection)url.openConnection();
 			//Set the request to GET or POST as per the requirements
